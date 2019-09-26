@@ -1,8 +1,9 @@
 CREATE Table bears(
     id INTEGER PRIMARY KEY,
-    name TEXT
-    age Integer,
+    name TEXT,
+    age INTEGER,
     gender TEXT,
     color TEXT,
-    tempera INTEGER
+    temperament INTEGER,
+    alive INTEGER
 );
